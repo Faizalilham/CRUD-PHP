@@ -40,7 +40,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php while($row = pg_fetch_array($statement)): ?>
+                        <?php while($row = pg_fetch_array($statement,NULL,PGSQL_ASSOC)): ?>
                         <tr>
                             <td><?= $row['nim']; ?></td>
                             <td><?= $row['nama']; ?></td>
