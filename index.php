@@ -1,9 +1,9 @@
 <?php
    include('connection.php');
 
-    $statement = pg_query($connection,"SELECT * FROM "siswa" ");
+    $statement = pg_query($connection,"SELECT * FROM siswa ");
 ?>
-
+https://github.com/explore
 <!DOCTYPE html>
 <html lang="en">
 <head>
